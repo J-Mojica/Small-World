@@ -1,6 +1,6 @@
 # Small-World
-Small world is a Java program that constructs a graph where each vertex is an actor. If any two actors have worked in a common movie,
-then an edge is built between them. Once the graph is fully constructed then it allows you to do queries by giving two indexes
+[Small World](/SmallWorld.java) is a Java program that constructs a graph where each vertex is an actor. If any two actors have worked in a common movie,
+then an edge is built between them. Once the graph is fully constructed then it allows you to do queries by giving two indices
 that represent two actors. It will perform breadth-first search to find the shortest path between those two actors.
 If a path exists between these two actors, it will print the distance and the chain of movies and actors that connect them together.
 
@@ -75,7 +75,7 @@ vertex. If a path exists then it will print the shortest distance along with the
 If a path does not exist it will then print "No connection."
 
 If the user inputs -1 as the destination then the program will perform breadth-first search to determine the component of the graph that
-is connected to the source vertex. It then prints tha number of vertices that are part of this connected component and the user has the 
+is connected to the source vertex. It then prints the number of vertices that are part of this connected component and the user has the 
 option to print said compoinent.
 
 If the user inputs 0 as the source and destination then the program ends.
