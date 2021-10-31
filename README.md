@@ -71,7 +71,7 @@ allowed. So, if two actors participated in two different movies together, we wil
 ## Queries
 The program prompts the user for two indices: the actor from which to start from (source) and the actor that we want to reach (destination).
 It will then perform breadth-first search, visiting every vertex with a path to the source vertex until it reaches the destination
-vertex. If a path exists then it will print the shortest distance along with the chain of movies and actors tat connect the source actor and the destination actor.
+vertex. If a path exists then it will print the shortest distance along with the chain of movies and actors that connect the source actor and the destination actor.
 If a path does not exist it will then print "No connection."
 
 If the user inputs -1 as the destination then the program will perform breadth-first search to determine the component of the graph that
