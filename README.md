@@ -55,7 +55,7 @@ to the record.
 First we construct a graph able to contain all actors (counted as they were being read).
 The graph is implemented as an [adjacency list graph](/Graphl.java), i.e, each vertex (actor)
 is represented by a list of the vertices (other actors) to which is connected by an edge.
-This implementation is chosen over an adjacency matrix implementation because of the 
+This implementation is chosen over an [adjacency matrix implementation](/Graphm.java) because of the 
 large amount of vertex that will be in the graph. Let *n* represent the number of actors in our graph,
 an adjacency matrix implementation would require a 2D array of size *n*^2, i.e, an array of size
 *n* for every actor. Although this implementation would allow one to tell whether two vertices are connected
